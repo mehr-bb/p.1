@@ -1,0 +1,186 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+
+margin: 0;
+padding: 0;
+font-family: "Poppins", serif;
+}
+.logo {
+
+position: absolute;
+top: 51px;
+right: 108px;
+}
+.signup {
+
+width: 100%;
+display: flex;
+justify-content: center;
+position: relative;
+top: 104px;
+
+}
+.signup .form-signup {
+width: 640px;
+height: 678px;
+margin-left: 105px;
+position: relative;
+top: 100px ;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+
+}
+.signup .form-signup .text{
+width: 497;
+height: 652;
+top: 236px;
+left: 885px;
+gap: 23px;}
+
+.signup .form-signup .text h1{
+
+font-size: 40px;
+color: #313131;
+
+}
+.signup .form-signup .text p{
+
+font-size: 16px;
+color: #313131;
+opacity: 50%;
+}
+.form{
+
+height: 530px;
+margin-top: 48px;
+display: flex;
+flex-direction: column ;
+justify-content: space-around;
+align-content: space-between;
+}
+.form .form-group{
+  
+ height: 56px;   
+margin-bottom: 24px;
+display: flex;
+}
+.form .form-group label{
+
+background-color: transparent;
+color: rgb(0, 0, 0,.5);
+padding: 0 5px;
+font-size: 16px;
+position: relative;
+top: -40px;
+left: 10px;
+transition: .3s;
+}
+
+.form .form-group input{
+
+width: 100%;
+height: 56px;
+border-radius: 5px;
+border: .5 solid #79747E;
+
+}
+
+.form .form-group input:focus{
+
+border: .5 solid #515def;
+
+
+
+}
+
+.form .form-group .form-child input{
+
+width: 308px;
+padding-left: 10px;
+font-size: 16px;
+
+}
+
+
+
+.form .form-group .form-child:last-child{
+
+margin-left: 12px;
+
+}
+
+
+
+.form .form-group .form-child input:focus~label ,
+.form .form-group .form-child input:valid~label{
+
+   top: -70px; 
+left: 10px;
+font-size: 14px;
+background-color: #fff;
+
+}
+.form a{
+
+ color: #ff8682 ;  
+  text-decoration: none;  
+font-size: 14px;
+font-weight: bold;
+}
+.form span{
+ 
+color: #313131;    
+font-size: 14px;
+}
+.form .check{
+display: flex;
+align-items: center;
+margin-bottom: 40px;
+}
+.form input[type="checkbox"] {
+
+width: 18px;
+height: 18px;
+margin-right: 8px;
+}
+.form .button button{
+
+width: 100%;
+height: 48px;
+background-color: #515def;
+border-radius: 5px;
+color: #f3f3f3 ;
+border: none;
+
+}
+
+.form .text span{
+
+display: flex;
+justify-content: center;
+margin: 16px 0;
+}
+.form .sinupOR{
+
+display: flex;
+justify-content: space-between;
+align-content: center;
+align-items: center;
+}
+
+.form .sinupOR hr{
+
+width: 250px;
+color: #313131;
+opacity: 50%;
+}
+
+.form .sinupOR span{
+
+color: #313131;
+
+}
